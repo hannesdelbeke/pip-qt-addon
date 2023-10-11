@@ -2,6 +2,10 @@
 
 A Blender addon for managing Python modules inside Blender with PIP. 
 
+- UI [pip-qt](https://github.com/hannesdelbeke/pip-qt)
+- pip wrapper [unipip](https://github.com/hannesdelbeke/unipip)
+
+
 ## Install
 Install either by download .zip or downloading a release:  
 See Blender's official docs on [installing add-ons](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html#installing-add-ons).
