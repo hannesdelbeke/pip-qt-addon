@@ -1,5 +1,7 @@
 # Blender pip: Python module manager
 
+![image](https://github.com/hannesdelbeke/pip-qt-addon/assets/3758308/3a80f178-d77d-4af6-8e63-26c258171ec4)
+
 A Blender addon for managing Python modules inside Blender with PIP. 
 
 - UI [pip-qt](https://github.com/hannesdelbeke/pip-qt)
