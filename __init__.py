@@ -1,5 +1,5 @@
 bl_info = {
-    "name": "unipip Python Module Manager (PIP)",
+    "name": "PipQt Python Module Manager (PIP)",
     "author": "Hannes",
     "version": (0, 0, 1),
     "blender": (2, 91, 0),
@@ -47,24 +47,23 @@ def create_pth_startup_file():  # startup_path, pth_path
     site.addsitedir(pth_path)
 
 
-class UniPipPreferences(bpy.types.AddonPreferences):
+class PipQtPreferences(bpy.types.AddonPreferences):
     bl_idname = __name__
 
     def draw(self, context):
         layout = self.layout
 
 
-class UniPipOperator(bpy.types.Operator):
-    bl_idname = "wm.unipip_operator"
+class PipQtOperator(bpy.types.Operator):
+    bl_idname = "wm.pip_qt_operator"
     bl_label = "pip installer"
 
     def execute(self, context):
-        # todo import unipip
         create_pth_startup_file()
 
         global pth_path
         import pip_qt
-        pip_qt.unipip.default_target_path = pth_path
+        pip_qt.pypip.default_target_path = pth_path
         pip_qt.show()
 
         print("Hello, World!")
@@ -73,18 +72,18 @@ class UniPipOperator(bpy.types.Operator):
 
 def menu_func(self, context):
     layout = self.layout
-    layout.operator("wm.unipip_operator")
+    layout.operator("wm.pip_qt_operator")
 
 
 def register():
-    bpy.utils.register_class(UniPipOperator)
-    bpy.utils.register_class(UniPipPreferences)
+    bpy.utils.register_class(PipQtOperator)
+    bpy.utils.register_class(PipQtPreferences)
     bpy.types.TOPBAR_MT_window.append(menu_func)
 
 
 def unregister():
-    bpy.utils.unregister_class(UniPipOperator)
-    bpy.utils.unregister_class(UniPipPreferences)
+    bpy.utils.unregister_class(PipQtOperator)
+    bpy.utils.unregister_class(PipQtPreferences)
     bpy.types.TOPBAR_MT_window.remove(menu_func)
 
 
