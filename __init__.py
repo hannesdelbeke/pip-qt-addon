@@ -63,7 +63,7 @@ class PipQtOperator(bpy.types.Operator):
 
         global pth_path
         import pip_qt
-        pip_qt.pypip.default_target_path = pth_path
+        pip_qt.py_pip.default_target_path = pth_path  # todo remove reference of py pip in this module
         pip_qt.show()
 
         print("Hello, World!")
