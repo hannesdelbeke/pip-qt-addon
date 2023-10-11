@@ -1,1 +1,2 @@
 pip-qt
+bqt
