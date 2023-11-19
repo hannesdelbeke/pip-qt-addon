@@ -1,6 +1,6 @@
 # Blender PIP Qt add-on
 A Blender addon to manage your Python modules in Blender.  
-Search, (un)install & list
+🔍Search, ⚙️(un)install & 📃list
 
 ![image](https://github.com/hannesdelbeke/pip-qt-addon/assets/3758308/3a80f178-d77d-4af6-8e63-26c258171ec4)
 
