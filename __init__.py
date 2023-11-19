@@ -1,7 +1,7 @@
 bl_info = {
     "name": "PipQt Python Module Manager (PIP)",
     "author": "Hannes",
-    "version": (0, 0, 1),
+    "version": (0, 0, 2),
     "blender": (2, 91, 0),
     "location": "TODO add menu",
     "description": "Manage Python modules inside Blender with PIP",
