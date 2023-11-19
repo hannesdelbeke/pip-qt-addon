@@ -54,15 +54,6 @@ class PipQtPreferences(bpy.types.AddonPreferences):
         layout = self.layout
 
 
-def apply_stylesheet():
-    try:
-        import blender_stylesheet
-        blender_stylesheet.setup()
-    except Exception as e:
-        logging.error("Failed to apply blender stylesheet")
-        logging.error(e)
-
-    
 class PipQtOperator(bpy.types.Operator):
     bl_idname = "wm.pip_qt_operator"
     bl_label = "pip installer"
@@ -75,9 +66,7 @@ class PipQtOperator(bpy.types.Operator):
         global window
 
         import pip_qt
-
-        apply_stylesheet()
-            
+        
         pip_qt.py_pip.default_target_path = pth_path  # todo remove reference of py pip in this module
         window = pip_qt.PipInstaller()
         window.show()
