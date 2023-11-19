@@ -1,9 +1,9 @@
 # Blender PIP Qt add-on
-Ultra Python module manager
+A Blender addon to manage your Python modules in Blender.  
+Search, (un)install & list
 
 ![image](https://github.com/hannesdelbeke/pip-qt-addon/assets/3758308/3a80f178-d77d-4af6-8e63-26c258171ec4)
 
-A Blender addon for managing Python modules inside Blender with PIP. (requires Qt to display the UI)
 
 
 
@@ -31,7 +31,27 @@ See Blender's official docs on [installing add-ons](https://docs.blender.org/man
 ## Use
 Open from the menu `Window/Pip manager`
 
+### search packages
+- type package name in package field
+- click search
 
+### install a package
+- type package name in package field
+- click install
+
+### install a local package 
+A local editable install speeds up your development.
+Changes to your scripts in your IDE are automatically loaded in your app (after app restart or `importlib.reload`).
+- type `-e path/to/packaged/repo` (ensure your local repo has a `pyproject.toml` or `setup.py`)
+- click install
+
+### list installed packages
+See all installed packages, their versions, and location
+- click the list button
+
+# TODO
+- [ ] uninstall
+- [ ] list dependencies
 
 ### Dependencies
 developped on Windows, Mac support in progress
