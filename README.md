@@ -2,7 +2,7 @@
 
 ![image](https://github.com/hannesdelbeke/pip-qt-addon/assets/3758308/3a80f178-d77d-4af6-8e63-26c258171ec4)
 
-A Blender addon for managing Python modules inside Blender with PIP. 
+A Blender addon for managing Python modules inside Blender with PIP. (requires Qt to display the UI)
 
 - UI [pip-qt](https://github.com/hannesdelbeke/pip-qt)
 - pip wrapper [pypip](https://github.com/hannesdelbeke/pypip)
@@ -17,3 +17,6 @@ See Blender's official docs on [installing add-ons](https://docs.blender.org/man
 
 ## Use
 Open from the menu `Window/Pip manager`
+
+## other
+- A similar pip installer addon for Blender, without Qt: https://github.com/hannesdelbeke/blender_pip
