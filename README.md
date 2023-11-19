@@ -5,7 +5,7 @@
 A Blender addon for managing Python modules inside Blender with PIP. (requires Qt to display the UI)
 
 - UI [pip-qt](https://github.com/hannesdelbeke/pip-qt)
-- pip wrapper [pypip](https://github.com/hannesdelbeke/pypip)
+- pip wrapper [py-pip](https://github.com/hannesdelbeke/py-pip)
 
 
 ## Install
