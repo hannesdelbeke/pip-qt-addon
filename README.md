@@ -22,9 +22,10 @@ plugget.install("pip-qt-addon")
 ### Manual install
 1. Install either by download .zip or downloading a release:  
 See Blender's official docs on [installing add-ons](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html#installing-add-ons).
-2. install the [pip-qt](https://github.com/hannesdelbeke/pip-qt) dependency, and setup your qt environment in Blender. (see [bqt](https://github.com/techartorg/bqt))
-3. Open the Blender preferences window  
-4. Activate the addon tab for `Development: Python Module Manager`
+2. Install the [pip-qt](https://github.com/hannesdelbeke/pip-qt) dependency
+3. Setup your qt environment in Blender. (see [bqt](https://github.com/techartorg/bqt))
+4. Open the Blender preferences window  
+5. Activate the addon tab for `Development: Python Module Manager`
 
 
 
