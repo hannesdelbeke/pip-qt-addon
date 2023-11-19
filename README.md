@@ -31,27 +31,27 @@ See Blender's official docs on [installing add-ons](https://docs.blender.org/man
 ## Use
 Open from the menu `Window/Pip manager`
 
-### search packages
+### 🔍 search packages on PyPI
 - type package name in package field
 - click search
 
-### install a package
+### ▶️ install a package
 - type package name in package field
 - click install
 
-### install a local package 
+### ▶️ install a local package 
 A local editable install speeds up your development.
 Changes to your scripts in your IDE are automatically loaded in your app (after app restart or `importlib.reload`).
 - type `-e path/to/packaged/repo` (ensure your local repo has a `pyproject.toml` or `setup.py`)
 - click install
 
-### list installed packages
+### 📃 list installed packages
 See all installed packages, their versions, and location
 - click the list button
 
 # TODO
-- [ ] uninstall
-- [ ] list dependencies
+- [ ] ❌ uninstall
+- [ ] 📃 list dependencies
 
 ### Dependencies
 developed on Windows, Mac support in progress
