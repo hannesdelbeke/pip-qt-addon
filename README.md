@@ -19,4 +19,4 @@ See Blender's official docs on [installing add-ons](https://docs.blender.org/man
 Open from the menu `Window/Pip manager`
 
 ## other
-- A similar pip installer addon for Blender, without Qt: https://github.com/hannesdelbeke/blender_pip
+- A similar, more basic pip-installer for Blender (without Qt): https://github.com/hannesdelbeke/blender_pip
