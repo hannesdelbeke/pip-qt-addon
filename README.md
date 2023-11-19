@@ -9,6 +9,17 @@ A Blender addon for managing Python modules inside Blender with PIP. (requires Q
 
 
 ## Install
+
+### Plugget install (recommended)
+Search `pip-qt-addon` in [plugget-qt-addon](https://github.com/plugget/plugget-qt-addon), and click install  
+
+Or run this code if you have the [plugget](https://github.com/plugget/plugget) Python package installed:
+```python
+import plugget
+plugget.install("pip-qt-addon")
+```
+
+### Manual install
 1. Install either by download .zip or downloading a release:  
 See Blender's official docs on [installing add-ons](https://docs.blender.org/manual/en/latest/editors/preferences/addons.html#installing-add-ons).
 2. install the [pip-qt](https://github.com/hannesdelbeke/pip-qt) dependency, and setup your qt environment in Blender. (see [bqt](https://github.com/techartorg/bqt))
