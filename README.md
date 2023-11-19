@@ -5,8 +5,7 @@ Ultra Python module manager
 
 A Blender addon for managing Python modules inside Blender with PIP. (requires Qt to display the UI)
 
-- UI [pip-qt](https://github.com/hannesdelbeke/pip-qt)
-- pip wrapper [py-pip](https://github.com/hannesdelbeke/py-pip)
+
 
 
 ## Install
@@ -27,8 +26,18 @@ See Blender's official docs on [installing add-ons](https://docs.blender.org/man
 3. Open the Blender preferences window  
 4. Activate the addon tab for `Development: Python Module Manager`
 
+
+
 ## Use
 Open from the menu `Window/Pip manager`
+
+
+
+### Dependencies
+developped on Windows, Mac support in progress
+- UI [pip-qt](https://github.com/hannesdelbeke/pip-qt)
+- pip wrapper [py-pip](https://github.com/hannesdelbeke/py-pip)
+
 
 ## other
 - A similar, more basic pip-installer for Blender (without Qt): https://github.com/hannesdelbeke/blender_pip
