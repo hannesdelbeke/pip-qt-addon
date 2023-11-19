@@ -54,7 +54,7 @@ See all installed packages, their versions, and location
 - [ ] list dependencies
 
 ### Dependencies
-developped on Windows, Mac support in progress
+developed on Windows, Mac support in progress
 - UI [pip-qt](https://github.com/hannesdelbeke/pip-qt)
 - pip wrapper [py-pip](https://github.com/hannesdelbeke/py-pip)
 
