@@ -57,7 +57,7 @@ class PipQtPreferences(bpy.types.AddonPreferences):
 class PipQtOperator(bpy.types.Operator):
     bl_idname = "wm.pip_qt_operator"
     bl_label = "pip installer"
-    window = None
+    # window = None
 
     def execute(self, context):
         create_pth_startup_file()
@@ -68,8 +68,7 @@ class PipQtOperator(bpy.types.Operator):
         import pip_qt
         
         pip_qt.py_pip.default_target_path = pth_path  # todo remove reference of py pip in this module
-        window = pip_qt.PipInstaller()
-        window.show()
+        window = pip_qt.show()
         
         return {'FINISHED'}
 
