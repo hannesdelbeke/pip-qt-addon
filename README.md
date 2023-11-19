@@ -28,6 +28,10 @@ See Blender's official docs on [installing add-ons](https://docs.blender.org/man
 5. Activate the addon tab for `Development: Python Module Manager`
 
 
+## Instructions
+Open the window from the menu `Window/Pip manager`  
+For instructions, see [pip-qt](https://github.com/hannesdelbeke/pip-qt) 
+
 
 
 ## other
