@@ -13,6 +13,7 @@ A Blender Add-on wrapper around [pip-qt](https://github.com/hannesdelbeke/pip-qt
 ### Plugget install (recommended)
 1. install the [plugget-qt-addon](https://github.com/plugget/plugget-qt-addon)
 2. Search & install `pip-qt-addon` using the plugget qt addon  
+
 or
 1. Install the [plugget](https://github.com/plugget/plugget) Python package
 2. And run the code below:
